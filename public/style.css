@@ -1,0 +1,57 @@
+/* Tilt Neon 400 for messages & Josefin Sans for Heading */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Tilt+Neon&display=swap');
+/* Tilt Neon 400 for messages */
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.chatroom-container{
+    display: none;
+}
+
+/* #login{
+    display: none;
+} */
+
+
+.chat-header{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2rem;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+.chat-box{
+    font-family: 'Tilt Neon', sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    background-image: url("./images/image-2.jpg");
+    background-size: cover;
+    background-position: center;
+    overflow-y: scroll;
+
+}
+
+.chat-box::-webkit-scrollbar{
+    display: none;
+}
+
+.message{
+    padding: 0.5rem 0.75rem;
+    margin: 0.5rem;
+    width: fit-content;
+    background-color: rgba(57, 56, 56, 0.635);   
+    color: white;
+    border-radius: 0.5rem;
+}
+
+.right{
+    align-self: flex-end;
+    background-color: #493F5E;
+}

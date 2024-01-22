@@ -1,0 +1,24 @@
+{
+  "name": "chat-application",
+  "version": "1.0.0",
+  "description": "A Chat Application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kanekii16/Chat-Application.git"
+  },
+  "author": "Denji",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kanekii16/Chat-Application/issues"
+  },
+  "homepage": "https://github.com/kanekii16/Chat-Application#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.4"
+  }
+}
